@@ -24,8 +24,8 @@ const COURSES = [
     level: "beginner",
     title: "Introduction to Medical Device Safety",
     description:
-      "Designed for K–8 students and newcomers, this course introduces the concept of connected medical devices, why they need protection, and what can go wrong when they're compromised — with no technical background required.",
-    ages: "Ages 8–14",
+      "Designed for students and newcomers, this course introduces the concept of connected medical devices, why they need protection, and what can go wrong when they're compromised — with no technical background required.",
+    ages: "Recommended: Grade 6 - 8",
     format: "In-Person & Online",
     labKit: true,
   },
@@ -34,7 +34,7 @@ const COURSES = [
     title: "Connected Devices & Cyber Threats",
     description:
       "For high school students and motivated learners, this course dives into how medical devices communicate, common attack vectors (network, firmware, supply chain), and how defenders respond — including hands-on lab exercises with real hardware.",
-    ages: "Ages 14–18",
+    ages: "Recommended: Grade 9 - 12",
     format: "In-Person & Online",
     labKit: true,
   },
@@ -43,8 +43,8 @@ const COURSES = [
     title: "Medical Device Security Engineering",
     description:
       "A technical deep-dive for college students, early-career professionals, and career changers. Covers threat modeling, SBOM analysis, penetration testing fundamentals for embedded systems, and FDA pre-market cybersecurity submissions.",
-    ages: "Ages 18+",
-    format: "Online Only",
+    ages: "Recommended: 18+",
+    format: "In-Person & Online",
     labKit: true,
   },
 ];
