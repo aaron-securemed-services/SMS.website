@@ -25,7 +25,6 @@ const COURSES = [
     title: "Introduction to Medical Device Safety",
     description:
       "Designed for students and newcomers, this course introduces the concept of connected medical devices, why they need protection, and what can go wrong when they're compromised — with no technical background required.",
-    ages: "Recommended: Grade 6 - 8",
     format: "In-Person & Online",
     labKit: true,
   },
@@ -34,7 +33,6 @@ const COURSES = [
     title: "Connected Devices & Cyber Threats",
     description:
       "For high school students and motivated learners, this course dives into how medical devices communicate, common attack vectors (network, firmware, supply chain), and how defenders respond — including hands-on lab exercises with real hardware.",
-    ages: "Recommended: Grade 9 - 12",
     format: "In-Person & Online",
     labKit: true,
   },
@@ -43,7 +41,6 @@ const COURSES = [
     title: "Medical Device Security Engineering",
     description:
       "A technical deep-dive for college students, early-career professionals, and career changers. Covers threat modeling, SBOM analysis, penetration testing fundamentals for embedded systems, and FDA pre-market cybersecurity submissions.",
-    ages: "Recommended: 18+",
     format: "In-Person & Online",
     labKit: true,
   },
@@ -83,11 +80,11 @@ const SESSIONS = [
 // Each string appears as a bullet in the About section.
 
 const STANDARDS = [
-  "FDA Cybersecurity Guidance (2023)",
+  "FDA Cybersecurity Guidance (2026)",
   "NIST SP 800-30 / NIST SP 800-82",
   "IEC 62443 – Industrial Control Systems",
-  "HIPAA / HITECH Security Rules",
-  "MITRE ATT&CK for ICS",
+  "HIPAA",
+  "MITRE medical device cybersecurity",
 ];
 
 // ─── LAB KIT ITEMS ────────────────────────────────────────────
@@ -99,7 +96,7 @@ const KIT_ITEMS = [
   { icon: "🔌", title: "Embedded Hardware",  detail: "Microcontrollers & device boards" },
   { icon: "📡", title: "Wireless Modules",   detail: "BLE, Zigbee & 802.15.4" },
   { icon: "🔍", title: "Analysis Tools",     detail: "USB sniffers & logic analyzers" },
-  { icon: "📘", title: "Course Materials",   detail: "Printed guides & scenario cards" },
+  { icon: "📘", title: "Course Materials",   detail: "Guides & scenario cards" },
 ];
 
 // ─── CONTACT TOPICS ───────────────────────────────────────────
@@ -111,6 +108,6 @@ const CONTACT_TOPICS = [
   { icon: "🏫", text: "Bringing SecureMED to your school or organization" },
   { icon: "💻", text: "Online course availability & scheduling" },
   { icon: "🧰", text: "Lab kit logistics & shipping questions" },
-  { icon: "🤝", text: "Partnership & sponsorship opportunities" },
+  { icon: "🤝", text: "Partnership opportunities" },
   { icon: "📅", text: "Upcoming in-person session dates" },
 ];
