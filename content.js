@@ -80,11 +80,11 @@ const SESSIONS = [
 // Each string appears as a bullet in the About section.
 
 const STANDARDS = [
-  "FDA Cybersecurity Guidance (2026)",
-  "NIST SP 800-30 / NIST SP 800-82",
-  "IEC 62443 – Industrial Control Systems",
-  "HIPAA",
-  "MITRE medical device cybersecurity",
+  "ISO 13485",
+  "ISO 14971",
+  "IEC 81001-5-1",
+  "FIPS 140-3",
+  "AAMI TIR57 / ANSI/AAMI SW96",
 ];
 
 // ─── LAB KIT ITEMS ────────────────────────────────────────────
@@ -93,10 +93,9 @@ const STANDARDS = [
 // detail: one-line description
 
 const KIT_ITEMS = [
-  { icon: "🔌", title: "Embedded Hardware",  detail: "Microcontrollers & device boards" },
-  { icon: "📡", title: "Wireless Modules",   detail: "BLE, Zigbee & 802.15.4" },
-  { icon: "🔍", title: "Analysis Tools",     detail: "USB sniffers & logic analyzers" },
-  { icon: "📘", title: "Course Materials",   detail: "Guides & scenario cards" },
+  { icon: "💻", title: "Hardware",  detail: "Microcontrollers & device boards" },
+  { icon: "🔍", title: "Analysis Tools",     detail: "Flipper zero + GPIO module boards" },
+  { icon: "📘", title: "Course Materials",   detail: "Guides, workbook & scenario cards" },
 ];
 
 // ─── CONTACT TOPICS ───────────────────────────────────────────
